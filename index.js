@@ -6,6 +6,7 @@ function getNews() {
   )
     .then(response => response.json())
     .then(result => renderNews({ news: result.articles }));
+  c;
 }
 
 getNews();
